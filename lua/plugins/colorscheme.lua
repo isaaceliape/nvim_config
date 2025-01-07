@@ -2,7 +2,7 @@ return {
   {
     "maxmx03/fluoromachine.nvim",
     opts = {
-      -- theme = "retrowave",
+      glow = false,
       theme = "fluoromachine",
     },
   },
