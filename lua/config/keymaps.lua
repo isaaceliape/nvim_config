@@ -7,6 +7,8 @@ map("n", "<leader>fl", ":Fzf live_grep<CR>", { desc = "fzf live_grep" })
 map("n", "<leader>n", ":bnext<cr>", { desc = "Go to next buffer" })
 map("n", "<leader>t", ":bprev<cr>", { desc = "Go to prev buffer" })
 map("n", "<leader>h", ":bdelete | bprev<cr>", { noremap = true, silent = true, desc = "Delete current buffer" })
+map("n", "<leader>N", "<C-w>w", { noremap = true, silent = true, desc = "Go to next window" })
+map("n", "<leader>T", "<C-w>p", { noremap = true, silent = true, desc = "Go to prev window" })
 
 -- Use the blackhole register for all delete operations
 vim.api.nvim_set_keymap("n", "d", '"_d', { noremap = true, silent = true })
