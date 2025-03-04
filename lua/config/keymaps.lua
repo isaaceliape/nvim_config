@@ -2,6 +2,7 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 local map = vim.api.nvim_set_keymap
+local localUtil = require("lazyvim.util")
 
 map("n", "<leader>fl", ":Fzf live_grep<CR>", { desc = "fzf live_grep" })
 map("n", "<leader>n", ":bnext<cr>", { desc = "Go to next buffer" })
