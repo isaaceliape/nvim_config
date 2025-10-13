@@ -7,7 +7,7 @@ return {
         explorer = {
           hidden = true,
           ignored = true,
-          layout = { preview = true },
+          layout = { preview = "main" },
         },
         files = {
           hidden = true,
