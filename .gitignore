@@ -7,3 +7,4 @@ foo.*
 *.log
 data
 pack/
+.DS_Store
