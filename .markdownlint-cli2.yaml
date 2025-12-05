@@ -1,0 +1,5 @@
+# markdownlint-cli2 configuration for LazyVim setup
+config:
+  default: true
+  MD022: false
+  MD013: false
